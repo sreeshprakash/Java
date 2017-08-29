@@ -1,0 +1,11 @@
+public int ListLength(ListNode headNode){
+  int length = 0;
+  ListNode currentNode = headNode;
+  
+  while(currentNode != null){
+    currentNode = currentNode.getNext();
+    length++;
+   }
+   
+   return length;
+}
